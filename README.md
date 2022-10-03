@@ -1,3 +1,3 @@
 # shurok-petrov-lesson-monitor
 
-Шаблон для домашек
+Домашка java-core 1
