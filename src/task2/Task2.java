@@ -1,9 +1,6 @@
 package task2;
 
-import task2.solution1.AnotherSolution1;
-import task2.solution1.AnotherSolution2;
-import task2.solution1.AnotherSolution3;
-import task2.solution1.Solution;
+// продолжить https://www.codewars.com/kata/554e4a2f232cdd87d9000038/solutions/java
 
 /**
  * 5 tasks 7 kyu
@@ -11,6 +8,7 @@ import task2.solution1.Solution;
 public class Task2 {
     public static void main(String[] args) {
         runSolution1();
+        runSolution2();
     }
 
     private static void runSolution1() {
@@ -21,11 +19,21 @@ public class Task2 {
         strs[1] = "sdsds";
         strs[2] = "";
 
-        new Solution().run(strs);
-        new AnotherSolution1().run(strs);
-        new AnotherSolution2().run(strs);
-        new AnotherSolution3().run(strs);
+        new task2.solution1.Solution().run(strs);
+        new task2.solution1.AnotherSolution1().run(strs);
+        new task2.solution1.AnotherSolution2().run(strs);
+        new task2.solution1.AnotherSolution3().run(strs);
 
         System.out.println();
+    }
+
+    private static void runSolution2() {
+        System.out.println("== Solution 2 ==");
+
+        String dna = "ATCG";
+
+        new task2.solution2.Solution().run(dna);
+        new task2.solution2.AnotherSolution1().run(dna);
+        new task2.solution2.AnotherSolution2().run(dna);
     }
 }
