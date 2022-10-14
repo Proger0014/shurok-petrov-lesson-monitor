@@ -9,7 +9,8 @@ public class Task2 {
     public static void main(String[] args) {
 //        runSolution1();
 //        runSolution2();
-        runSolution3();
+//        runSolution3();
+        runSolution4();
     }
 
     private static void runSolution1() {
@@ -47,5 +48,15 @@ public class Task2 {
         new task2.solution3.Solution().run(start, finish);
         new task2.solution3.AnotherSolution1().run(start, finish);
         new task2.solution3.AnotherSolution2().run(start, finish);
+    }
+
+    private static void runSolution4() {
+        System.out.println("== Solution 4 ==");
+
+        int n = 12;
+
+        new task2.solution4.Solution().run(n);
+        new task2.solution4.AnotherSolution1().run(n);
+        new task2.solution4.AnotherSolution2().run(n);
     }
 }
