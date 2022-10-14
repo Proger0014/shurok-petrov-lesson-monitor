@@ -7,8 +7,9 @@ package task2;
  */
 public class Task2 {
     public static void main(String[] args) {
-        runSolution1();
-        runSolution2();
+//        runSolution1();
+//        runSolution2();
+        runSolution3();
     }
 
     private static void runSolution1() {
@@ -35,5 +36,16 @@ public class Task2 {
         new task2.solution2.Solution().run(dna);
         new task2.solution2.AnotherSolution1().run(dna);
         new task2.solution2.AnotherSolution2().run(dna);
+    }
+
+    private static void runSolution3() {
+        System.out.println("== Solution 3 ==");
+
+        int start = 1;
+        int finish = 5;
+
+        new task2.solution3.Solution().run(start, finish);
+        new task2.solution3.AnotherSolution1().run(start, finish);
+        new task2.solution3.AnotherSolution2().run(start, finish);
     }
 }
