@@ -1,7 +1,5 @@
 package task2;
 
-// продолжить https://www.codewars.com/kata/554e4a2f232cdd87d9000038/solutions/java
-
 /**
  * 5 tasks 7 kyu
  */
