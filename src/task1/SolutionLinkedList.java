@@ -1,6 +1,7 @@
 package task1;
 
 import java.util.LinkedList;
+import java.util.List;
 
 public class SolutionLinkedList {
     public void run(int start, int end) {
@@ -11,8 +12,8 @@ public class SolutionLinkedList {
         System.out.println();
     }
 
-    private LinkedList<Integer> getList(int start, int end) {
-        LinkedList<Integer> listNums = new LinkedList<>();
+    private List<Integer> getList(int start, int end) {
+        List<Integer> listNums = new LinkedList<>();
 
         for (int value = start; value <= end; value += 2) {
             listNums.add(value);

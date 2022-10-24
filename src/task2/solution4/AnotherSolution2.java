@@ -11,5 +11,15 @@ public class AnotherSolution2 extends AbstractSolutionTemplate {
         return IntStream
                 .range(1, n + 1)
                 .reduce(0, (acc, x) -> n % x == 0 ? acc + 1 : acc); // acc - это identity, который равен 0... Крч, counter. x -> range
+
+        /**
+         * 0..5
+         * 0, 1
+         * 1, 2
+         * 3, 3
+         * 6, 4,
+         * 10, 5
+         * 15
+         */
     }
 }

@@ -7,7 +7,7 @@ public class SolutionLinkedListRecursion {
         start = start % 2 == 0 ? start : start + 1;
         end = end % 2 == 0 ? end : end - 1;
 
-        System.out.println(getList(new LinkedList<Integer>(), end, start));
+        System.out.println(getList(new LinkedList<>(), end, start));
         System.out.println();
     }
 
