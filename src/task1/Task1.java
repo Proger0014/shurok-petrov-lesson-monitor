@@ -18,6 +18,7 @@ public class Task1 {
         int[] tom = new int[] { 0, 9, 10, 11 };
 
         new task1.solution1.Solution().run(frank, sam, tom);
+        new task1.solution1.SolutionWithQueue().run(frank, sam, tom);
     }
 
     private static void runSolution2() {
